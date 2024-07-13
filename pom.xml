@@ -76,6 +76,11 @@
     <artifactId>spring-boot-devtools</artifactId>
     <optional>true</optional>
 </dependency>
+<dependency>
+	<groupId>com.github.andrebonna</groupId>
+	<artifactId>json-snapshot</artifactId>
+	<version>0.0.1</version>
+</dependency>
 
 
 	</dependencies>
