@@ -12,7 +12,7 @@ import net.javaguides.springboot.model.Signup;
 import net.javaguides.springboot.repository.AdminRepository;
 import net.javaguides.springboot.repository.CustomerRepository;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/v1/admins") // Ensure this path is correct
 public class AdminController {
