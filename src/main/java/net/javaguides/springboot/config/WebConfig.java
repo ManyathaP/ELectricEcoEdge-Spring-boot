@@ -20,8 +20,8 @@ public class WebConfig implements WebMvcConfigurer {
 //                        .allowedHeaders("*")
 //                        .allowCredentials(true);
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedOrigins("https://electric-eco-edge-app.vercel.app/")
+                registry.addMapping("/api/**")
+                        .allowedOrigins("https://https://electric-eco-edge-app.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
