@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://https://electric-eco-edge-app.vercel.app")
 @RestController
 @RequestMapping("/api/v1/rewards")
 public class RewardController {
