@@ -12,7 +12,7 @@ import net.javaguides.springboot.model.Signup;
 import net.javaguides.springboot.repository.AdminRepository;
 import net.javaguides.springboot.repository.CustomerRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://https://electric-eco-edge-app.vercel.app")
 @RestController
 @RequestMapping("/api/v1/admins") // Ensure this path is correct
 public class AdminController {
