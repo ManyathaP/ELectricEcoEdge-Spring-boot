@@ -12,7 +12,7 @@ import net.javaguides.springboot.model.Admin;
 import net.javaguides.springboot.repository.AdminRepository;
 import net.javaguides.springboot.service.EmailService;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://https://electric-eco-edge-app.vercel.app")
 @RestController
 @RequestMapping("/api/v1/authadmin")
 public class AuthAdminController{
