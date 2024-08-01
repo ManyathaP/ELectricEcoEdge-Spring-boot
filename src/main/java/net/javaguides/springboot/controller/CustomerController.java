@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import net.javaguides.springboot.model.Signup;
 import net.javaguides.springboot.repository.CustomerRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://https://electric-eco-edge-app.vercel.app")
 @RestController
 @RequestMapping("/api/v1/customers")
 public class CustomerController {
