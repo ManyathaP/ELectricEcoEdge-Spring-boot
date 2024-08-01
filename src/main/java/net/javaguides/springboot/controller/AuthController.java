@@ -14,7 +14,7 @@ import net.javaguides.springboot.model.Signup;
 import net.javaguides.springboot.repository.CustomerRepository;
 import net.javaguides.springboot.service.EmailService;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://https://electric-eco-edge-app.vercel.app")
 @RestController
 @RequestMapping("/api/v1/auth")
 public class AuthController {
