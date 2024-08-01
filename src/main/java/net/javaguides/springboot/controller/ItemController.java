@@ -27,7 +27,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.List;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://https://electric-eco-edge-app.vercel.app")
 @RestController
 @RequestMapping("/api/v1/items")
 public class ItemController {
